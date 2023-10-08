@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+    <title>MIS NOTAS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="agregar">
+                <h2>+</h2>
+                <p>Nueva Nota</p>
+            </div>
+            <form class="form">
+                <div class="menu">
+                    <button> <img src="./asset/flecha.png" alt=""> </button>
+                    <button> <img src="./asset/marcador.png" alt=""> </button>
+                </div>
+                <div class="intro">
+                    <input type="text" class="titulo" placeholder="Titulo">
+                    <textarea class="descripcion" placeholder="Descripcion" cols="100%" rows="35"></textarea>
+                </div>
+            </form>
+            <div class="contenedor_notas">
+                <!-- contenedor de todas las notas generados en javascript -->
+            </div>
+
+        </div>
+    </main>
+<script src="hammer.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
